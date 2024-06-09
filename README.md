@@ -3,7 +3,7 @@
 KazGlyphGAN is a Django web application designed to upload images and generate Kazakh glyphs using two different models: VQ-Font and MX-Font.
 
 
-![Sample Image](images/main_page_mx.png)
+![Sample image](images/main_page_mx.jpg)
 ## Table of Contents
 
 - [Installation](#installation)
@@ -102,9 +102,9 @@ KazGlyphGAN/
 ├── manage.py # Django management script
 └── README.md # Project documentation
 
-## pages
-![Sample Image](images/main_page_vq.png)
-![Sample Image](images/about.png)
-![Sample Image](images/publ.png)
+## Pages
+![Sample Image](images/main_page_vq.jpg)
+![Sample Image](images/about.jpg)
+![Sample Image](images/publ.jpg)
 
  
