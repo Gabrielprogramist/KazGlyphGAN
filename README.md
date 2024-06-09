@@ -67,40 +67,40 @@ Since the `vqfont` and `mxfont` directories are empty in this repository, you ne
 
 ## File Structure
 
-KazGlyphGAN/
-│
-├── media/ # Contains uploaded images and generated results
-│ ├── uploads/
-│ └── results/
-│
-├── vqfont/ # Placeholder for VQ-Font model files
-│ ├── cfgs/
-│ ├── data/
-│ ├── ...
-│ └── last.pth
-│
-├── mxfont/ # Placeholder for MX-Font model files
-│ ├── cfgs/
-│ ├── data/
-│ ├── ...
-│ └── last.pth
-│
-├── image_processing/ # Django app for image processing
-│ ├── templates/ ...
-│ ├── forms.py
-│ ├── models.py
-│ ├── urls.py
-│ ├── ...
-│ └── views.py
-│
-├── KazGlyphGAN/ # Django project settings
-│ ├── settings.py
-│ ├── urls.py
-│ ├── ...
-│ └── wsgi.py
-│
-├── manage.py # Django management script
-└── README.md # Project documentation
+KazGlyphGAN/<br/>
+│<br/>
+├── media/ # Contains uploaded images and generated results<br/>
+│ ├── uploads/<br/>
+│ └── results/<br/>
+│<br/>
+├── vqfont/ # Placeholder for VQ-Font model files<br/>
+│ ├── cfgs/<br/>
+│ ├── data/<br/>
+│ ├── ...<br/>
+│ └── last.pth<br/>
+│<br/>
+├── mxfont/ # Placeholder for MX-Font model files<br/>
+│ ├── cfgs/<br/>
+│ ├── data/<br/>
+│ ├── ...<br/>
+│ └── last.pth<br/>
+│<br/>
+├── image_processing/ # Django app for image processing<br/>
+│ ├── templates/ ...<br/>
+│ ├── forms.py<br/>
+│ ├── models.py<br/>
+│ ├── urls.py<br/>
+│ ├── ...<br/>
+│ └── views.py<br/>
+│<br/>
+├── KazGlyphGAN/ # Django project settings<br/>
+│ ├── settings.py<br/>
+│ ├── urls.py<br/>
+│ ├── ...<br/>
+│ └── wsgi.py<br/>
+│<br/>
+├── manage.py # Django management script<br/>
+└── README.md # Project documentation<br/>
 
 ## Pages
 ![Sample Image](images/main_page_vq.jpg)
