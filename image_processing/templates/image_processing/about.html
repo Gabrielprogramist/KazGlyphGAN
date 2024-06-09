@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - KazGlyphGAN</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="icon" href="{% static 'images/logo3.png' %}" type="image/png">
+</head>
+<body>
+    <nav>
+        <a href="{% url 'index' %}">Main</a>
+        <a href="{% url 'about' %}">About Us</a>
+        <a href="{% url 'publications' %}">Publications</a>
+    </nav>
+    <h1>About Us</h1>
+    <div class="about-container">
+        <div class="author">
+            <img src="{% static 'images/author1.jpg' %}" alt="Author 1">
+            <h2>Author 1</h2>
+            <p>Swordsman</p>
+        </div>
+        <div class="author">
+            <img src="{% static 'images/author2.jpg' %}" alt="Author 2">
+            <h2>Author 2</h2>
+            <p>A master of his craft</p>
+        </div>
+    </div>
+</body>
+</html>

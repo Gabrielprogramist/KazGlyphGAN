@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Publications - KazGlyphGAN</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="icon" href="{% static 'images/logo3.png' %}" type="image/png">
+</head>
+<body>
+    <nav>
+        <a href="{% url 'index' %}">Main</a>
+        <a href="{% url 'about' %}">About Us</a>
+        <a href="{% url 'publications' %}">Publications</a>
+    </nav>
+    <h1>Publications</h1>
+    <div class="pdf-container">
+        <iframe src="{% static 'files/example.pdf' %}" frameborder="0"></iframe>
+    </div>
+</body>
+</html>
